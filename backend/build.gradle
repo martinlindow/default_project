@@ -1,4 +1,4 @@
-apply 'eclipse'
+apply plugin: 'eclipse'
 
 dependencies {
 	compile project(':common')
