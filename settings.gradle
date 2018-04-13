@@ -1,0 +1,6 @@
+/*
+ * This file contains defailt settings for the global project
+ */
+include 'common', 'backend', 'web-frontend'
+
+rootProject.name = 'default-project'

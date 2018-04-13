@@ -1,0 +1,7 @@
+
+dependencies {
+	compile project(':common')
+	compile project(':backend')
+	
+	compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+}
