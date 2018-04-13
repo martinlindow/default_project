@@ -1,3 +1,5 @@
+apply 'eclipse'
+
 dependencies {
 	compile project(':common')
 	compile project(':web-frontend')
