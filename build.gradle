@@ -1,9 +1,3 @@
-buildscript {
-	repositories {
-		mavenCentral()
-	}
-}
-
 allprojects {
 	apply plugin: 'java'
 
@@ -16,6 +10,7 @@ allprojects {
 	
 	buildscript {
 		repositories {
+			jcenter()
 			mavenCentral()
 		}
 	}
@@ -26,5 +21,10 @@ allprojects {
 
 		// Use JUnit test framework
 		testCompile 'junit:junit:4.12'
+	}
+	
+	repositories {
+		jcenter()
+		mavenCentral()
 	}
 }
